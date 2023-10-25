@@ -8,10 +8,16 @@ public class Parameters : MonoBehaviour {
     [SpaceAttribute(10)]
     public bool Moveable;
     public float RotateSpeed;
-    
+
+    [SpaceAttribute(10)]
+    [HeaderAttribute("                       ------- Game Time ------- ")]
+    [SpaceAttribute(10)]
+    public float GameTime;
+
     void Awake() {
     
         if (instance == null) instance = this;
     
     }
+    
 }

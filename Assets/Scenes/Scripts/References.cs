@@ -1,3 +1,4 @@
+using Shapes;
 using UnityEngine;
 
 public class References : MonoBehaviour {
@@ -8,6 +9,12 @@ public class References : MonoBehaviour {
     [HeaderAttribute("                       ------- Player ------- ")]
     [SpaceAttribute(10)]
     public GameObject Player;
+
+    [SpaceAttribute(10)]
+    [HeaderAttribute("                       -------  UI  ------- ")]
+    [SpaceAttribute(10)]
+    public IMPanelSample HungerPanel;
+    public IMPanelSample ScorePanel;
 
 
 
