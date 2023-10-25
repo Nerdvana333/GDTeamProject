@@ -17,12 +17,23 @@ public class GameMonitors : MonoBehaviour {
             hunger = value;
             if (hunger<0) {
                 hunger = 0;
-                // ...
+                // ... lose
+            }
+        }
+    }   
+
+    [SerializeField] private int score;
+    public int Score {
+
+        get => score;
+        set {
+            score = value;
+            if (score>100) {
+                score = 100;
+                // ... win
             }
         }
     }
-
-    [SerializeField] private float Score;
 
     void Awake() {
     
@@ -33,6 +44,7 @@ public class GameMonitors : MonoBehaviour {
     void Start() {
 
         hunger = 1f;
+        score = 0;
 
     }
  

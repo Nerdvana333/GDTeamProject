@@ -18,6 +18,11 @@ public class PlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space)) {   
 
+            // testing
+            GameMonitors.instance.Score += 10;
+            References.instance.ScorePanel.fillAmount = GameMonitors.instance.Score / 100f;
+            // dotween ...
+
         }
         
     }
