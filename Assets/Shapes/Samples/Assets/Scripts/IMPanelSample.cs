@@ -10,8 +10,8 @@ namespace Shapes {
 		public string title = "Title";
 
 		public override void DrawPanelShapes( Rect rect ) {
-			if( colorGradient == null )
-				return; // just in case it hasn't initialized
+
+			if ( colorGradient == null ) return; // just in case it hasn't initialized
 
 			// Draw black background:
 			Draw.Rectangle( rect, 8f, Color.black );
@@ -24,10 +24,10 @@ namespace Shapes {
 			// Draw white border:
 			Draw.RectangleBorder( rect, 4f, 8f, Color.white );
 
-			// Draw the title
-			Draw.FontSize = 240;
-			Vector2 topLeft = new Vector2( rect.xMin + 6f, rect.yMax + 6f );
-			Draw.Text( topLeft, title, TextAlign.BaselineLeft );
+			// // Draw the title
+			// Draw.FontSize = 240;
+			// Vector2 topLeft = new Vector2( rect.xMin + 6f, rect.yMax + 6f );
+			// Draw.Text( topLeft, title, TextAlign.BaselineLeft );
 		}
 
 		Rect Inset( Rect r, float amount ) {
