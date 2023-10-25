@@ -8,6 +8,7 @@ public class Parameters : MonoBehaviour {
     [SpaceAttribute(10)]
     public bool Moveable;
     public float RotateSpeed;
+    public float LockAngle;
 
     [SpaceAttribute(10)]
     [HeaderAttribute("                       ------- Game Time ------- ")]
@@ -19,5 +20,5 @@ public class Parameters : MonoBehaviour {
         if (instance == null) instance = this;
     
     }
-    
+
 }
