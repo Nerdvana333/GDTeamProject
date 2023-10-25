@@ -1,5 +1,6 @@
 using Shapes;
 using UnityEngine;
+using Text = TMPro.TextMeshProUGUI;
 
 public class References : MonoBehaviour {
 
@@ -13,8 +14,12 @@ public class References : MonoBehaviour {
     [SpaceAttribute(10)]
     [HeaderAttribute("                       -------  UI  ------- ")]
     [SpaceAttribute(10)]
+    public GameObject HungerUI;
     public IMPanelSample HungerPanel;
+    public Text HungerText;
+    public GameObject ScoreUI;
     public IMPanelSample ScorePanel;
+    public Text ScoreText;
 
 
 

@@ -15,6 +15,13 @@ public class Parameters : MonoBehaviour {
     [SpaceAttribute(10)]
     public float GameTime;
 
+    [SpaceAttribute(10)]
+    [HeaderAttribute("                       ------- UI Animation ------- ")]
+    [SpaceAttribute(10)]
+    public float TextSize;
+    public float BarScale;
+    public float Duration;
+
     void Awake() {
     
         if (instance == null) instance = this;

@@ -1,4 +1,7 @@
 using UnityEngine;
+using DG.Tweening;
+using Text = TMPro.TextMeshProUGUI;
+
 
 public class HungerManager : MonoBehaviour {
     
