@@ -1256,7 +1256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b677b22dbebca446bae9373334043a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Playing: 0
+  Playing: 1
   TongueOut: 0
   NextFire: 0
 --- !u!1 &1949692580
