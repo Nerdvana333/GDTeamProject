@@ -1,24 +1,27 @@
 using UnityEngine;
-using DG.Tweening;
-using Text = TMPro.TextMeshProUGUI;
 
+public class ScoreManager: MonoBehaviour {
 
-public class ScoreManager : MonoBehaviour {
+    public static ScoreManager instance;
+
+    void Awake() {
     
-    void Update() {
+        if (instance == null) instance = this;
+    
+    }
+    
+    // void Update() {
 
-        if (GameState.instance.Playing) {
-            // testing
-            if (Input.GetKeyDown(KeyCode.Space)) {   
-                
-                GameMonitors.instance.Score += 10;
-                References.instance.ScorePanel.fillAmount = GameMonitors.instance.Score / 100f;
-                UIManager.instance.UIAnimation(References.instance.ScoreUI, Parameters.instance.TextDeltaSize, Parameters.instance.BarScale, Parameters.instance.Duration);
+    //     if (!GameState.instance.Playing) return;
+        
+    // }
 
-            }
-        
-        }
-        
+    public void AddScore(int score) {
+    
+        GameMonitors.instance.Score += score;
+        References.instance.ScorePanel.fillAmount = GameMonitors.instance.Score / 100f;
+        UIManager.instance.UIAnimation(References.instance.ScoreUI, Parameters.instance.TextDeltaSize, Parameters.instance.BarScale, Parameters.instance.Duration);
+
     }
 
 }
