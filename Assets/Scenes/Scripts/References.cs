@@ -10,6 +10,7 @@ public class References : MonoBehaviour {
     [HeaderAttribute("                       ------- Player ------- ")]
     [SpaceAttribute(10)]
     public GameObject Player;
+    public GameObject Tongue;
 
     [SpaceAttribute(10)]
     [HeaderAttribute("                       -------  UI  ------- ")]
