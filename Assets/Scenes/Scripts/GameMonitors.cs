@@ -17,6 +17,7 @@ public class GameMonitors : MonoBehaviour {
                 hunger = 0;
                 // ... lose
             }
+            if (hunger>1) hunger = 1;
         }
     }   
 

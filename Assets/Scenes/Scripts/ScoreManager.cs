@@ -9,12 +9,6 @@ public class ScoreManager: MonoBehaviour {
         if (instance == null) instance = this;
     
     }
-    
-    // void Update() {
-
-    //     if (!GameState.instance.Playing) return;
-        
-    // }
 
     public void AddScore(int score) {
     

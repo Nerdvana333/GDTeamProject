@@ -5,6 +5,9 @@ public class Tongue : MonoBehaviour {
 
         if (!c.gameObject.CompareTag("Bug")) return;
         ScoreManager.instance.AddScore(c.gameObject.GetComponent<Bugs>().Score);
+        c.gameObject.GetComponent<Bugs>().killSuquence();
+        HungerManager.instance.AddHunger(c.gameObject.GetComponent<Bugs>().Hunger);
+        Destroy(c.gameObject);
 
     }  
 

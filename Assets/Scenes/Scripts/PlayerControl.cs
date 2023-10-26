@@ -35,7 +35,7 @@ public class PlayerControl : MonoBehaviour {
 
         GameState.instance.NextFire = Time.time + Parameters.instance.FireRate;
         var s = DOTween.Sequence();
-        s.Append(References.instance.Tongue.transform.DOScaleY(Parameters.instance.TongueLength, Parameters.instance.TongueOutTime/2)).Append(References.instance.Tongue.transform.DOScaleY(1, Parameters.instance.TongueOutTime/2));
+        s.Append(References.instance.Tongue.transform.DOScaleY(Parameters.instance.TongueLength, Parameters.instance.TongueOutTime/2)).Append(References.instance.Tongue.transform.DOScaleY(0.5f, Parameters.instance.TongueOutTime/2));
 
     }
 

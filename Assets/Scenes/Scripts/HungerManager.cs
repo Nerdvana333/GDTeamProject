@@ -24,4 +24,12 @@ public class HungerManager : MonoBehaviour {
     
     }
 
+    public void AddHunger(float amount) {
+    
+        GameMonitors.instance.Hunger += amount / 100f;
+        References.instance.HungerPanel.fillAmount = GameMonitors.instance.Hunger;
+        UIManager.instance.UIAnimation(References.instance.HungerUI, Parameters.instance.TextDeltaSize, Parameters.instance.BarScale, Parameters.instance.Duration);
+    
+    }
+
 }
