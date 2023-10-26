@@ -28,8 +28,13 @@ public class Parameters : MonoBehaviour {
     [SpaceAttribute(10)]
     public float TongueLength;
     public float TongueOutTime;
+    public float FireRate;
 
-    public float FireRate = 0.5f;
+    [SpaceAttribute(10)]
+    [HeaderAttribute("                       ------- Bug Movement ------- ")]
+    [SpaceAttribute(10)]
+    public float BezierPointNumber;
+    public float PathRandomOffset;
 
     void Awake() {
     
