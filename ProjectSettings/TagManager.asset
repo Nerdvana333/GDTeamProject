@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3979841607
+    locked: 0
+  - name: tongue
+    uniqueID: 2428911017
+    locked: 0
+  - name: Items
+    uniqueID: 2872892427
+    locked: 0

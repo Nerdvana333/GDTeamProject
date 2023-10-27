@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameMonitors : MonoBehaviour {
  
@@ -29,6 +30,7 @@ public class GameMonitors : MonoBehaviour {
             score = value;
             if (score>100) {
                 score = 100;
+                LoadNextLevel();
                 // ... win
             }
         }
@@ -46,5 +48,12 @@ public class GameMonitors : MonoBehaviour {
         score = 0;
 
     }
- 
+    void LoadNextLevel()
+    {
+        // do to Level
+        // 
+        Debug.Log("next level");
+        SceneManager.LoadScene("Main scene 1");
+    }
+
 }
