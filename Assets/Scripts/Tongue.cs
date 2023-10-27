@@ -8,7 +8,12 @@ public class Tongue : MonoBehaviour {
         c.gameObject.GetComponent<Bugs>().killSuquence();
         HungerManager.instance.AddHunger(c.gameObject.GetComponent<Bugs>().Hunger);
         Destroy(c.gameObject);
-
+        // Spwan new random bugs
+        BugSpwaner spawner = FindObjectOfType<BugSpwaner>();
+        if (spawner != null)
+        {
+            spawner.SpawnBug();
+        }
     }  
 
 }

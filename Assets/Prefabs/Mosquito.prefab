@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4180404860312336518}
   - component: {fileID: 1845084009000801050}
   m_Layer: 0
-  m_Name: Fly
+  m_Name: Mosquito
   m_TagString: Bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +33,7 @@ Transform:
   - {fileID: 3112315262553409893}
   - {fileID: 7092816144089230106}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4180404860312336518
 MonoBehaviour:
@@ -251,7 +251,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a8ccb51f37b6d1a4199e3a61016218d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5371331187842c34caaa5057746e989e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
