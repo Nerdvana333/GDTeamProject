@@ -16,6 +16,7 @@ public class GameMonitors : MonoBehaviour {
             hunger = value;
             if (hunger<0) {
                 hunger = 0;
+                LoadLose();
                 // ... lose
             }
             if (hunger>1) hunger = 1;
@@ -53,7 +54,12 @@ public class GameMonitors : MonoBehaviour {
         // do to Level
         // 
         Debug.Log("next level");
-        SceneManager.LoadScene("Main scene 1");
+        SceneManager.LoadScene("WinGame");
+    }
+    void LoadLose()
+    {
+        Debug.Log("Lose game");
+        SceneManager.LoadScene("LoseGame");
     }
 
 }
