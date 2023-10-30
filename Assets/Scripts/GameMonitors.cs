@@ -59,12 +59,12 @@ public class GameMonitors : MonoBehaviour {
         if (currentSceneName == "Main scene")
         {
             
-            SceneManager.LoadScene("Main scene 1");
+            SceneManager.LoadScene("WinGame");
         }
         else
         {
             
-            SceneManager.LoadScene("WinGame");
+            SceneManager.LoadScene("FinalWinGame");
         }
         
     }
