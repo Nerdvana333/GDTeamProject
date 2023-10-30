@@ -8,9 +8,10 @@ public class BugSpwaner : MonoBehaviour
     public void SpawnBug() {
         int r =  Random.Range(0, bugPrefabs.Length);
         GameObject bug = Instantiate(bugPrefabs[r], transform);
+        
         bug.transform.position = new Vector3(
-            Random.Range(-4f, 4f), // X (relative position)
-            Random.Range(-2, 2f), // Y
-            0f ); 
+        Random.Range(-4f, 4f), // X (relative position)
+        Random.Range(-2, 2f), // Y
+        0f ); 
     }
 }
