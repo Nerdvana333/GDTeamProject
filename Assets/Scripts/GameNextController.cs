@@ -13,6 +13,6 @@ public class GameNext : MonoBehaviour
     }
     void StartGame()
     {
-        SceneManager.LoadScene("Main scene 1"); // 換成您的遊戲主場景的名稱
+        SceneManager.LoadScene("Main scene"); // 換成您的遊戲主場景的名稱
     }
 }

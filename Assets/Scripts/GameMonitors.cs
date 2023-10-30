@@ -54,7 +54,19 @@ public class GameMonitors : MonoBehaviour {
         // do to Level
         // 
         Debug.Log("next level");
-        SceneManager.LoadScene("WinGame");
+        string currentSceneName = SceneManager.GetActiveScene().name;
+
+        if (currentSceneName == "Main scene")
+        {
+            
+            SceneManager.LoadScene("Main scene 1");
+        }
+        else
+        {
+            
+            SceneManager.LoadScene("WinGame");
+        }
+        
     }
     void LoadLose()
     {
