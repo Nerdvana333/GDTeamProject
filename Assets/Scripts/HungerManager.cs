@@ -19,7 +19,7 @@ public class HungerManager : MonoBehaviour {
 
     private void DecreaseHunger() {
     
-        GameMonitors.instance.Hunger -= Time.deltaTime / Parameters.instance.GameTime;
+        GameMonitors.instance.Hunger -= Time.deltaTime / Parameters.instance.GameTime * Parameters.instance.HungerSpeed;
         References.instance.HungerPanel.fillAmount = GameMonitors.instance.Hunger;
     
     }

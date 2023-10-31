@@ -19,7 +19,7 @@ public class GameState : MonoBehaviour {
 
     void Start() {
 
-        Cursor.visible = false; 
+        // Cursor.visible = false; 
 
     }
 

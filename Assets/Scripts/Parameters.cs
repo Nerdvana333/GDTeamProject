@@ -1,3 +1,4 @@
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 public class Parameters : MonoBehaviour {
@@ -22,6 +23,11 @@ public class Parameters : MonoBehaviour {
     public float TextOriginalSize;
     public float BarScale;
     public float Duration;
+
+    [SpaceAttribute(10)]
+    [HeaderAttribute("                       ------- UI Animation ------- ")]
+    [SpaceAttribute(10)]
+    public float HungerSpeed;
 
     [SpaceAttribute(10)]
     [HeaderAttribute("                       ------- Tongue Parameters ------- ")]
