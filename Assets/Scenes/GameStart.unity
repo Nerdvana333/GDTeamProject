@@ -466,6 +466,7 @@ MonoBehaviour:
   TextOriginalSize: 70
   BarScale: 1.7
   Duration: 0.3
+  HungerSpeed: 0
   TongueLength: 50
   TongueOutTime: 0.3
   FireRate: 0.5
@@ -707,7 +708,7 @@ SpriteRenderer:
   m_SortingLayerID: -1422074869
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 00835a96beade2b48ba75316da7bc2a8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 36ad06a87132c6e4ebb9864cbd4057dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1178,7 +1179,7 @@ Transform:
   m_GameObject: {fileID: 1967956244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 1.9497516, z: 0}
+  m_LocalPosition: {x: 0.07, y: 2.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
