@@ -25,6 +25,7 @@ public class GameNextController : MonoBehaviour
     }
     private void OnMouseUpAsButton()
     {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         if (!isAudioPlaying)
         {
             PlayClickSound();
