@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSound: {fileID: 8300000, guid: 9036838c7e571794fb50eee72c3a93ed, type: 3}
-  fingerCursor: {fileID: 2800000, guid: d17de339a1c9f2d458e51bbcf1166eca, type: 3}
+  fingerCursor: {fileID: 2800000, guid: 25c6af35e9876944fb58712f17e371e8, type: 3}
 --- !u!82 &531769701
 AudioSource:
   m_ObjectHideFlags: 0
@@ -470,7 +470,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 692244808}
-  MusicClip: {fileID: 8300000, guid: 457f3bbb19ee167419cfa15d38eee019, type: 3}
+  MusicClip1: {fileID: 8300000, guid: 457f3bbb19ee167419cfa15d38eee019, type: 3}
+  MusicClip2: {fileID: 8300000, guid: 23982621cdc1db44c8931c18290061bc, type: 3}
   MusicVolume: 0.15
 --- !u!82 &692244808
 AudioSource:
@@ -482,7 +483,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 23982621cdc1db44c8931c18290061bc, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

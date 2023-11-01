@@ -1128,8 +1128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d9bd88523884b499872c42c529d56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 8300000, guid: 361dfc49c30d3d54e8e688cb47bd0b09, type: 3}
-  audioSource: {fileID: 0}
 --- !u!1 &1734459390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,7 +1159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 1734459392}
-  MusicClip: {fileID: 8300000, guid: 416b0e728d71c6e4099ad278ff910cf5, type: 3}
+  MusicClip1: {fileID: 8300000, guid: 416b0e728d71c6e4099ad278ff910cf5, type: 3}
+  MusicClip2: {fileID: 8300000, guid: 23982621cdc1db44c8931c18290061bc, type: 3}
   MusicVolume: 0.15
 --- !u!82 &1734459392
 AudioSource:
@@ -1173,7 +1172,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 416b0e728d71c6e4099ad278ff910cf5, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

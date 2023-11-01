@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSound: {fileID: 8300000, guid: 9036838c7e571794fb50eee72c3a93ed, type: 3}
-  fingerCursor: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+  fingerCursor: {fileID: 2800000, guid: 25c6af35e9876944fb58712f17e371e8, type: 3}
 --- !u!82 &63598753
 AudioSource:
   m_ObjectHideFlags: 0
@@ -478,7 +478,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 225032743}
-  MusicClip: {fileID: 8300000, guid: b7fcc7fe2e31cdb4a9b77d9c3a9bce18, type: 3}
+  MusicClip1: {fileID: 8300000, guid: b7fcc7fe2e31cdb4a9b77d9c3a9bce18, type: 3}
+  MusicClip2: {fileID: 0}
   MusicVolume: 0.15
 --- !u!82 &225032743
 AudioSource:

@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSound: {fileID: 8300000, guid: 9036838c7e571794fb50eee72c3a93ed, type: 3}
-  fingerCursor: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+  fingerCursor: {fileID: 2800000, guid: 25c6af35e9876944fb58712f17e371e8, type: 3}
 --- !u!58 &429096221
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -419,7 +419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 453215936}
-  MusicClip: {fileID: 8300000, guid: 5e449dc05f3d02e4d9df99b35b42a3c1, type: 3}
+  MusicClip1: {fileID: 8300000, guid: 5e449dc05f3d02e4d9df99b35b42a3c1, type: 3}
+  MusicClip2: {fileID: 8300000, guid: 23982621cdc1db44c8931c18290061bc, type: 3}
   MusicVolume: 0.15
 --- !u!82 &453215936
 AudioSource:
@@ -759,7 +760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSound: {fileID: 8300000, guid: 9036838c7e571794fb50eee72c3a93ed, type: 3}
-  fingerCursor: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+  fingerCursor: {fileID: 2800000, guid: 25c6af35e9876944fb58712f17e371e8, type: 3}
 --- !u!82 &1041681338
 AudioSource:
   m_ObjectHideFlags: 0
