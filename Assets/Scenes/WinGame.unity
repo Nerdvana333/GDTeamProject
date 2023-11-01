@@ -419,7 +419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 453215936}
-  MusicClip: {fileID: 8300000, guid: 5e449dc05f3d02e4d9df99b35b42a3c1, type: 3}
+  MusicClip1: {fileID: 8300000, guid: 5e449dc05f3d02e4d9df99b35b42a3c1, type: 3}
+  MusicClip2: {fileID: 8300000, guid: 23982621cdc1db44c8931c18290061bc, type: 3}
   MusicVolume: 0.15
 --- !u!82 &453215936
 AudioSource:
