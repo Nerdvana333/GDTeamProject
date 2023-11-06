@@ -19,7 +19,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/User/Desktop/GDTeamProject/WebGL Builds/HungryFrog;C:/Users/Ray-Lab/Desktop/Gavin/Repos/GDTeamProject/WebGL Builds/TeamProjectHungryFrogGame;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/User/Desktop/GDTeamProject/WebGL Builds/Frog;C:/Users/Ray-Lab/Desktop/Gavin/Repos/GDTeamProject/WebGL Builds/TeamProjectHungryFrogGame;;;;;;;;\"}"
             }
         ]
     }
